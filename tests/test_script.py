@@ -131,7 +131,8 @@ def sample_code():
 
     extract_title(test_markdown)
 
-def main():
+def lmao_main():
+    
     item1 = LeafNode("li", "First item")
     item2 = LeafNode("li", "Second item", props={"class": "special"})
 
@@ -158,7 +159,18 @@ code
     meow = markdown_to_html_node(markup)
     print(meow.to_html())
         
-        
+def main():
+    
+    nums = [12_345, 618_222, 58_832_221, 2_180_831_475, 8_663_863_102]
+
+    average = 0
+    if not nums:
+        return None
+    for num in nums:
+        average += num
+        average = average / len(nums)
+    print(average)    
+    return average
 
 
 if __name__ == "__main__":
