@@ -1,5 +1,5 @@
 import unittest
-from blocknode import markdown_to_blocks, block_to_block_type
+from src.blocknode import markdown_to_blocks, block_to_block_type
 
 class TestMarkdownBlocks(unittest.TestCase):
     def test_basic_blocks(self):

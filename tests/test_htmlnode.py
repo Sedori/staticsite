@@ -1,7 +1,7 @@
 import unittest
 
-from htmlnode import HTMLNode, LeafNode, ParentNode, text_node_to_html_node, split_nodes_delimiter, extract_markdown_images, extract_markdown_links, extract_title
-from textnode import TextType, TextNode
+from src.htmlnode import HTMLNode, LeafNode, ParentNode, text_node_to_html_node, split_nodes_delimiter, extract_markdown_images, extract_markdown_links, extract_title
+from src.textnode import TextType, TextNode
 
 class TestHTMLNode(unittest.TestCase):
     def test_for_eq_attribs(self):
