@@ -1,6 +1,6 @@
 import re
-from textnode import TextNode, TextType
-from blocknode import markdown_to_blocks, block_to_block_type
+from .textnode import TextNode, TextType
+from .blocknode import markdown_to_blocks, block_to_block_type
 
 def extract_title(markdown):
     blocks = markdown_to_blocks(markdown)
